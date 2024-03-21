@@ -5,3 +5,4 @@ pydantic~=2.6.4
 starlette~=0.36.3
 uvicorn==0.28.1
 firebase-admin==6.5.0
+dropbox~=11.36.2
