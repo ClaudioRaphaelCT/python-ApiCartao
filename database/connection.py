@@ -6,6 +6,7 @@ cred = credentials.Certificate(MY_SECRETS)
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
+print(cred)
 
 def get_docs_ambos():
     return db.collection('cartaoAmbos').get()
